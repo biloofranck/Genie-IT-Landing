@@ -15,7 +15,9 @@ function App() {
       <Service />
       <OurTeam />
       <OurCreations />
+      
       <Testimonials />
+
       <Footer />
     </>
   );
