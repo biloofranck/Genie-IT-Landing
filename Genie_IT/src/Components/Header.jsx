@@ -27,7 +27,7 @@ const Header = () => {
         className=" absolute top-48 right-8 w-32 blur-sm -z-10 rotate-[25deg]"
       />
 
-      <div className="max-w-[1300px] mx-auto min-h-screen relative z-0 pb-6">
+      <div className="max-w-[80%] mx-auto min-h-screen relative z-0 pb-6">
         <img
           src={timer}
           alt="header timer image"
