@@ -7,7 +7,6 @@ const Box = () => {
     <p className="text-lg italic text-[55px] mt-5 "> "</p>
     <p className="text-lg italic">Et quoniam mirari posse quosdam sonare peregrinos</p>
     <div>
-        
     </div>
     </div>
    </div>
