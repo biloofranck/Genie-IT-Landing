@@ -6,9 +6,6 @@ import React from "react";
 import Nav from "./Nav";
 import HeaderContent from "./HeaderContent";
 
-// ======================================================
-// === importing image assets
-// ======================================================
 import polygon from "../asset/polygon.png";
 import timer from "../asset/10.png";
 import phone from "../asset/14.png";
