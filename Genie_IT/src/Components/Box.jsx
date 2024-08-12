@@ -5,7 +5,7 @@ const Box = () => {
   return (
     <div>
       <div className="bg-gray-900 p-6 rounded-[40px] w-full h-[280px]">
-        <p className=" italic text-[40px] mt-5 "> "</p>
+        <p className=" italic text-[50px] mt-5 ml-5 "> "</p>
         <p className="text-lg italic ml-4 ">
           Et quoniam mirari posse quosdam sonare peregrinos
         </p>
