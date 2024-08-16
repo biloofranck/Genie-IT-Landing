@@ -19,7 +19,7 @@ const About1 = () => {
               <p className="mt-6 text-xl font-medium text-slate-600 ">
                 Et quoniam mirari posse quosdam peregrinos existimo haec
                 lecturos forsitan, si contigerit, quamobrem cum oratio ad ea
-                monstranda deflexerit quae Romae gererentur
+                monstranda deflexerit quae Romae gererenture
               </p>
               <button className="bg-[#099CF6] px-8 py-2 w-[50%]  text-slate-100 text-lg font-semibold   rounded-3xl ">
                 Find my design
