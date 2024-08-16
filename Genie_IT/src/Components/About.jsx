@@ -39,7 +39,7 @@ const About1 = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4  gap-24 justify-center mt-36   ">
+      <div className="grid grid-cols-2 md:grid-cols-4  gap-24 justify-center mt-36">
         <div className="flex divide-x-2 divide-violet-900">
           <div>
             <img src={CalenderIcon} className="w-[70px]" alt="" />
