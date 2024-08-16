@@ -8,12 +8,12 @@ import StopWatchIcon from "../asset/18.png";
 const About1 = () => {
   return (
     <section>
-      <div className=" relative container  bg-gradient-to-b from-[#099bf683] to-[#00d9e8f3] mx-auto rounded-[30px] w-[100%] h-[100vh] ">
+      <div className=" relative container  bg-gradient-to-b from-[#099bf683] to-[#00d9e8f3] shrink mx-auto rounded-[30px] w-screen h-[100vh] md:h-[80vh] ">
         <div className="bg-[#225e8383] w-[100%] h-[80%] rounded-t-3xl  ">
-          <div className=" flex flex-col mx-auto justify-center items-center p-0  ">
-            <img src={pc} className="w-full h-[50%]  ml-8mx-auto" alt="" />
-            <div className=" ">
-              <span className="text-white font-bold text-[50px]">
+          <div className=" flex flex-col  md:flex-row  mx-auto justify-center items-center md:-pt-52 mt-24 ">
+            <img src={pc} className="w-[900px] h-[50%]  md:-ml-28 md:-mt-36 mx-auto" alt="" />
+            <div className=" flex flex-col justify-center md:-ml-32 md:-mt-52 md:gap-4 ">
+              <span className="text-white font-bold text-[50px]  ">
                 Why Genie iT is a new begging
               </span>
               <p className="mt-6 text-xl font-medium text-slate-600 ">
@@ -21,7 +21,7 @@ const About1 = () => {
                 lecturos forsitan, si contigerit, quamobrem cum oratio ad ea
                 monstranda deflexerit quae Romae gererentur
               </p>
-              <button className="bg-[#099CF6] px-8 py-2 text-slate-100 text-lg font-semibold   rounded-3xl ">
+              <button className="bg-[#099CF6] px-8 py-2 w-[50%]  text-slate-100 text-lg font-semibold   rounded-3xl ">
                 Find my design
               </button>
             </div>
@@ -35,7 +35,7 @@ const About1 = () => {
           />
         </div>
         <div className="absolute top-0 -right-28">
-          <img src={timer} className="w-[200px] h-[200px] blur-sm " alt="" />
+          <img src={timer} className="w-[200px] h-[200px] blur-sm" alt="" />
         </div>
       </div>
 
