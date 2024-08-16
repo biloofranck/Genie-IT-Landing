@@ -6,9 +6,6 @@ import React from "react";
 import Nav from "./Nav";
 import HeaderContent from "./HeaderContent";
 
-// ======================================================
-// === importing image assets
-// ======================================================
 import polygon from "../asset/polygon.png";
 import timer from "../asset/10.png";
 import phone from "../asset/14.png";
@@ -27,7 +24,7 @@ const Header = () => {
         className=" absolute top-48 right-8 w-32 blur-sm -z-10 rotate-[25deg]"
       />
 
-      <div className="max-w-[1300px] mx-auto min-h-screen relative z-0 pb-6">
+      <div className="max-w-[80%] mx-auto min-h-screen relative z-0 pb-6">
         <img
           src={timer}
           alt="header timer image"
