@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-@layer {
-    body{
-        @apply bg-[#293138];
-    }
-=======
-
 body{
     background-color: #263139;
     font-family: "Cabin", sans-serif, Helvetica;
@@ -17,5 +10,4 @@ body{
     font-style: normal;
     overflow-x: hidden;
     transition: all ease 0.25s;
->>>>>>> 1a6d8054a09166ca7e9014900d2fd3a7d985fb8e
 }
