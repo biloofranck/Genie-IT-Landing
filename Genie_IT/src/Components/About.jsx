@@ -8,8 +8,7 @@ import StopWatchIcon from "../asset/18.png";
 const About1 = () => {
   return (
     <section className=" mx-auto items-center mt-8">
-      
-      <div className="relative bg-gradient-to-b from-[#099bf683] to-[#00d9e8f3] w-[350px] sm:w-[500px] md:w-[1200px] h-[80vh]  rounded-[30px] mb-12 pt-1 mx-auto  ">
+      <div className=" bg-gradient-to-b from-[#099bf683] to-[#00d9e8f3] w-[350px] sm:w-[500px] md:w-[1200px] h-[80vh]  rounded-[30px] mb-12 pt-1 mx-auto  ">
         <div className="bg-[#225e8383] h-[70%] rounded-t-3xl mx-1  text-white flex flex-col  md:flex-row">
           <img src={pc} className="w-[700px] h-[400px] md:w-[900px] md:h-[600px] md:-ml-28 " alt="pc-icon" />
           <div className="flex flex-col mx-auto  -mt-24 md:mt-24 md:-ml-20 text-center md:text-left">
@@ -17,10 +16,10 @@ const About1 = () => {
             <p className="text-slate-600 mt-4 md:mt-8 md:pr-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Harum modi alias illum mollitia fugiat odit voluptatum vel adipisci eos unde perspiciatis.
             </p>
-            <button className="bg-[#00d9e8f3] max-w-[40%] py-3 px-4 mx-auto md:mx-2 mt-4  md:mt-8 rounded-3xl">Find Our Designs</button>
+            <button className="bg-[#00d9e8f3] max-w-[50%] py-3 px-4 mx-auto md:mx-2 mt-4  md:mt-8 rounded-3xl">Find Our Designs</button>
           </div>
         </div>
-        <div className="absolute top-0 -right-12 ">
+        <div className="absolute top-0 -right-12">
           <img src={timer} className=" blur-sm" alt="sand-timer-img" />
         </div>
         <div className="absolute bottom-4 -left-12">
