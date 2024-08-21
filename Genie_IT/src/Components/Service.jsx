@@ -4,7 +4,7 @@ import ServicesBox from './ServicesBox'
 
 const Service =({ platform, imageUrl }) => {
   return (
-    <div className="border-t border-t-blue-500 bg-gray-800 p-4 rounded-3xl ">
+    <div className="border-t-8 bg-gray-800 p-4 rounded-3xl ">
      
       <img src={imageUrl} alt={`${platform} thumbnail`} className="w-full rounded-lg mb-4" />
       <div className=" flex flex-col items-start">
@@ -34,7 +34,7 @@ const ServicesSection = () => {
   ];
 
   return (
-   <div className="bg-gray-900 py-8">
+   <div className=" py-8">
       <h2 className="text-center text-3xl font-semibold text-white mb-8">Nos services</h2>
       <div className="grid grid-cols-5 md:grid-cols-3 gap-7 px-4 md:px-16">
         {services.map((service, index) => (
