@@ -7,40 +7,33 @@ import StopWatchIcon from "../asset/18.png";
 
 const About1 = () => {
   return (
-    <section>
-      <div className=" relative container  bg-gradient-to-b from-[#099bf683] to-[#00d9e8f3] shrink mx-auto rounded-[30px] w-screen h-[100vh] md:h-[80vh] ">
-        <div className="bg-[#225e8383] w-[100%] h-[80%] rounded-t-3xl  ">
-          <div className=" flex flex-col  md:flex-row  mx-auto justify-center items-center md:-pt-52 mt-24 ">
-            <img src={pc} className="w-[900px] h-[50%]  md:-ml-28 md:-mt-36 mx-auto" alt="" />
-            <div className=" flex flex-col justify-center md:-ml-32 md:-mt-52 md:gap-4 ">
-              <span className="text-white font-bold text-[50px]  ">
-                Why Genie iT is a new begging
-              </span>
-              <p className="mt-6 text-xl font-medium text-slate-600 ">
-                Et quoniam mirari posse quosdam peregrinos existimo haec
-                lecturos forsitan, si contigerit, quamobrem cum oratio ad ea
-                monstranda deflexerit quae Romae gererenture
-              </p>
-              <button className="bg-[#099CF6] px-8 py-2 w-[50%]  text-slate-100 text-lg font-semibold   rounded-3xl ">
-                Find my design
-              </button>
-            </div>
+    <section className=" mx-auto items-center mt-8">
+      
+      <div className="relative bg-gradient-to-b from-[#099bf683] to-[#00d9e8f3] w-[350px] sm:w-[500px] md:w-[900px] h-[80vh]  rounded-[30px] mb-12 pt-1 mx-auto  ">
+        <div className="bg-[#225e8383] h-[70%] rounded-t-3xl mx-1  text-white flex flex-col  md:flex-row">
+          <img src={pc} className="w-[700px] h-[400px] md:w-[900px] md:h-[600px] md:-ml-28 " alt="pc-icon" />
+          <div className="flex flex-col mx-auto  -mt-24 md:mt-24 md:-ml-20 text-center md:text-left">
+            <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl md:mt-8  ">Why Genie iT is a new begging</h2>
+            <p className="text-slate-600 mt-4 md:mt-8 md:pr-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Harum modi alias illum mollitia fugiat odit voluptatum vel adipisci eos unde perspiciatis.
+            </p>
+            <button className="bg-[#00d9e8f3] max-w-[50%] py-3 px-4 mx-auto md:mx-2 mt-4  md:mt-8 rounded-3xl">Find Our Designs</button>
           </div>
         </div>
-        <div>
+        <div className="absolute top-0 -right-12 ">
+          <img src={timer} className=" blur-sm" alt="sand-timer-img" />
+        </div>
+        <div className="absolute bottom-4 -left-12">
           <img
             src={phone}
-            className="w-[150px] h-[150px] rotate-45 -ml-24 -mt-16 blur-sm"
-            alt=""
+            className="  rotate-45 blur-sm"
+            alt="phone-img"
           />
-        </div>
-        <div className="absolute top-0 -right-28">
-          <img src={timer} className="w-[200px] h-[200px] blur-sm" alt="" />
         </div>
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-4  gap-24 justify-center mt-36">
-        <div className="flex divide-x-2 divide-violet-900">
+      <div className="grid sm:grid-cols-2 md:grid-cols-4 justify-center mt-4 md:my-12 mx-auto ">
+        <div className="flex divide-x-2 divide-violet-900 mb-4">
           <div>
             <img src={CalenderIcon} className="w-[70px]" alt="" />
           </div>
@@ -53,7 +46,7 @@ const About1 = () => {
             </p>
           </div>
         </div>
-        <div className="flex divide-x-2 divide-violet-900">
+        <div className="flex divide-x-2 divide-violet-900 mb-4">
           <div>
             <img src={StopWatchIcon} className="w-[70px]" alt="" />
           </div>
@@ -66,7 +59,7 @@ const About1 = () => {
             </p>
           </div>
         </div>
-        <div className="flex divide-x-2 divide-violet-900">
+        <div className="flex divide-x-2 divide-violet-900 mb-4">
           <div>
             <img src={StopWatchIcon} className="w-[70px]" alt="" />
           </div>
