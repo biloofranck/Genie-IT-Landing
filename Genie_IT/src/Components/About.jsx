@@ -9,7 +9,7 @@ const About1 = () => {
   return (
     <section className=" mx-auto items-center mt-8">
       
-      <div className="relative bg-gradient-to-b from-[#099bf683] to-[#00d9e8f3] w-[350px] sm:w-[500px] md:w-[900px] h-[80vh]  rounded-[30px] mb-12 pt-1 mx-auto  ">
+      <div className="relative bg-gradient-to-b from-[#099bf683] to-[#00d9e8f3] w-[350px] sm:w-[500px] md:w-[1200px] h-[80vh]  rounded-[30px] mb-12 pt-1 mx-auto  ">
         <div className="bg-[#225e8383] h-[70%] rounded-t-3xl mx-1  text-white flex flex-col  md:flex-row">
           <img src={pc} className="w-[700px] h-[400px] md:w-[900px] md:h-[600px] md:-ml-28 " alt="pc-icon" />
           <div className="flex flex-col mx-auto  -mt-24 md:mt-24 md:-ml-20 text-center md:text-left">
@@ -17,7 +17,7 @@ const About1 = () => {
             <p className="text-slate-600 mt-4 md:mt-8 md:pr-4"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
               Harum modi alias illum mollitia fugiat odit voluptatum vel adipisci eos unde perspiciatis.
             </p>
-            <button className="bg-[#00d9e8f3] max-w-[50%] py-3 px-4 mx-auto md:mx-2 mt-4  md:mt-8 rounded-3xl">Find Our Designs</button>
+            <button className="bg-[#00d9e8f3] max-w-[40%] py-3 px-4 mx-auto md:mx-2 mt-4  md:mt-8 rounded-3xl">Find Our Designs</button>
           </div>
         </div>
         <div className="absolute top-0 -right-12 ">
@@ -32,7 +32,7 @@ const About1 = () => {
         </div>
       </div>
 
-      <div className="grid sm:grid-cols-2 md:grid-cols-4 justify-center mt-4 md:my-12 mx-auto ">
+      <div className="grid sm:grid-cols-2 md:grid-cols-4 justify-center items-center mt-4 md:my-12 mx-auto ">
         <div className="flex divide-x-2 divide-violet-900 mb-4">
           <div>
             <img src={CalenderIcon} className="w-[70px]" alt="" />
