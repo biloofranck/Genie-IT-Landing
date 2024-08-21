@@ -16,7 +16,7 @@ const Header = () => {
       <img
         src={polygon}
         alt="header polygon image"
-        className="absolute -top-10 -right-12 -z-10 scale-105"
+        className="absolute -top-10 -right-12 -z-10 scale-105 max-[1250px]:scale-90 max-[1250px]:-right-32 max-[1060px]:scale-75 max-[1060px]:-top-20 max-[1060px]:-right-40 max-[760px]:scale-90 max-[705px]:-top-10 max-[625px]:top-0 max-[570px]:top-20 max-[510px]:scale-150 max-[510px]:top-32 max-[510px]:right-0 max-[414px]:hidden"
       />
       <img
         src={phone}
@@ -24,7 +24,7 @@ const Header = () => {
         className=" absolute top-48 right-8 w-32 blur-sm -z-10 rotate-[25deg]"
       />
 
-      <div className="max-w-[80%] mx-auto min-h-screen relative z-0 pb-6">
+      <div className="max-w-[80%] mx-auto min-h-screen relative z-0 pb-6 max-[1300px]:max-w-full max-[1300px]:mx-20 max-[880px]:mx-10 max-[375px]:mx-5">
         <img
           src={timer}
           alt="header timer image"
