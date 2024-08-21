@@ -1,10 +1,17 @@
-import React from 'react'
+import React from 'react';
+import marketing-digital from './asset/marketing-digital.webp';
+import mobile_application_development_ad3f711b7d from './asset/mobile_application_development.jpg';
+import pexels-pixabay-414974 from './asset/pexels-pixabay-414974.jpg';
+import Programming_Languages from './asset/Programming_Languages.png';
+import Web-Design-Project-Post_Inspiration_ from './asset/Web-Design-Project-Post_Inspiration_.jpg';
+import web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-100232725 from './asset/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-100232725.jpg';
 import ServicesBox from './ServicesBox'
+
 
 
 const Service =({ platform, imageUrl }) => {
   return (
-    <div className="border-t-8 bg-gray-800 p-4 rounded-3xl ">
+    <div className="border-t-8 border-t-blue-500 bg-gray-800 p-2 rounded-3xl ">
      
       <img src={imageUrl} alt={`${platform} thumbnail`} className="w-full rounded-lg mb-4" />
       <div className=" flex flex-col items-start">
@@ -25,8 +32,8 @@ const Service =({ platform, imageUrl }) => {
 
 const ServicesSection = () => {
   const services = [
-    { platform: 'Marketing', imageUrl: 'https://via.placeholder.com/150' },
-    { platform: 'Web Design', imageUrl: 'https://via.placeholder.com/150' },
+    { platform: 'Marketing', imageUrl: marketing-digital },
+    { platform: 'Web Design', imageUrl: mobile_application_development_ad3f711b7d },
     { platform: 'Graphics Design', imageUrl: 'https://via.placeholder.com/150' },
     { platform: 'Mobile Dev', imageUrl: 'https://via.placeholder.com/150' },
     { platform: 'Web Dev', imageUrl: 'https://via.placeholder.com/150' },
@@ -34,9 +41,9 @@ const ServicesSection = () => {
   ];
 
   return (
-   <div className=" py-8">
-      <h2 className="text-center text-3xl font-semibold text-white mb-8">Nos services</h2>
-      <div className="grid grid-cols-5 md:grid-cols-3 gap-7 px-4 md:px-16">
+   <div className="p-14 py-8">
+      <h2 className="text-center text-3xl font-semibold text-white mb-10">Nos services</h2>
+      <div className="grid lg:grid-cols-3 gap-7 px-4 md:grid-cols-2 sm:grid-cols-1">
         {services.map((service, index) => (
           <Service key={index} platform={service.platform} imageUrl={service.imageUrl} />
         ))}
