@@ -10,4 +10,5 @@ body{
     font-style: normal;
     overflow-x: hidden;
     transition: all ease 0.25s;
+    user-select: none;
 }

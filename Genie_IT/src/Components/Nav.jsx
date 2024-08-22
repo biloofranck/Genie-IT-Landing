@@ -8,12 +8,12 @@ import logo from "../asset/33.png";
 const Nav = () => {
   const [NavDisplay, setNavDisplay] = useState(false);
   return (
-    <div className="flex py-14 items-center text-[#8790a2] max-[1160px]:pt-10 max-[1160px]:pb-16 max-[1160px]:justify-between">
+    <div className="flex py-14 items-center text-[#8790a2] max-[1160px]:pt-10 max-[1160px]:pb-16 max-[1160px]:justify-between ">
       <div className="w-[250px] self-start max-[1000px]:w-[150px]">
         <img src={logo} alt="this is the website logo" className="w-52" />
       </div>
       <div
-        className={`flex-1 flex flex-row  max-[1160px]:fixed max-[1160px]:top-0 max-[1160px]:bottom-0 max-[1160px]:right-0 max-[1160px]:bg-[#363f46] max-[1160px]:z-40 max-[1160px]:py-10 max-[1160px]:px-5 ${
+        className={`flex-1 flex flex-row  max-[1160px]:fixed max-[1160px]:top-0 max-[1160px]:bottom-0 max-[1160px]:right-0 max-[1160px]:bg-[#363f46] max-[1160px]:z-50 max-[1160px]:py-10 max-[1160px]:px-5 ${
           NavDisplay ? "max-[1160px]:block" : "max-[1160px]:hidden"
         }`}
       >

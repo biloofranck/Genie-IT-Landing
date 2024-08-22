@@ -100,11 +100,17 @@ const About1 = () => {
         />
         <div className="relative -z-20 overflow-hidden flex items-center py-5 px-10 pb-14 w-full bg-[#2a72a0] mt-40 border-4 border-[#0f83d8] rounded-[70px] max-[1060px]:mt-20 max-[950px]:pb-10 max-[725px]:px-4 max-[725px]:flex-col max-[860px]:mt-5 max-[510px]:-z-10">
           <div className="flex-1 flex items-center justify-center">
-            <img src={pc} alt="icon of a computer" className="max-[725px]:w-[80%]" />
+            <img
+              src={pc}
+              alt="icon of a computer"
+              className="max-[725px]:w-[80%]"
+            />
           </div>
           <div className="flex-[1.2] text-white z-50 max-[725px]:mb-10 ">
             <div className=" max-w-[450px]">
-              <h2 className="text-6xl max-[1150px]:text-4xl max-[880px]:text-2xl">Why Genie iT is a new begging</h2>
+              <h2 className="text-6xl max-[1150px]:text-4xl max-[880px]:text-2xl">
+                Why Genie iT is a new begging
+              </h2>
               <p className="py-6 italic text-gray-400 max-[950px]:py-2 max-[880px]:text-sm">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Aliquam illo veniam earum, dolor possimus, vitae repellendus
@@ -116,7 +122,7 @@ const About1 = () => {
               </button>
             </div>
           </div>
-          <div className="absolute bottom-0 left-0 right-0 bg-[#00d1e9] py-11 -z-30 max-[950px]:py-8"></div>
+          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-[#00d1e9] to-[#0092f7] py-11 -z-30 max-[950px]:py-8"></div>
         </div>
       </div>
       <div className="py-20 bg-red-600"></div>
