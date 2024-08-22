@@ -12,7 +12,7 @@ import phone from "../asset/14.png";
 
 const Header = () => {
   return (
-    <div className="relative z-0">
+    <div className="relative z-0 min-[1300px]:w-fit min-[1300px]:px-32 min-[1300px]:mx-auto">
       <img
         src={polygon}
         alt="header polygon image"
@@ -24,7 +24,7 @@ const Header = () => {
         className=" absolute top-48 right-8 w-32 blur-sm -z-10 rotate-[25deg]"
       />
 
-      <div className="max-w-[80%] mx-auto min-h-screen relative z-0 pb-6 max-[1300px]:max-w-full max-[1300px]:mx-20 max-[880px]:mx-10 max-[375px]:mx-5">
+      <div className="max-w-[1300px] mx-auto min-h-screen relative z-0 pb-6 max-[1300px]:max-w-full max-[1300px]:mx-20 max-[880px]:mx-10 max-[375px]:mx-5 min-[1250px]:min-h-fit max-[760px]:min-h-[80vh]">
         <img
           src={timer}
           alt="header timer image"

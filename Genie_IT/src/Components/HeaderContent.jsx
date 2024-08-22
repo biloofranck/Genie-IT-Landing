@@ -37,7 +37,7 @@ const HeaderContent = () => {
           </button>
         </div>
       </div>
-      <div className="flex-1 flex justify-center items-center relative max-[760px]:justify-end max-[760px]:w-[80%]">
+      <div className="flex-1 flex justify-center items-center relative max-[760px]:justify-end max-[760px]:w-[80%] ">
         <img
           src={search}
           alt="search icon"
@@ -51,7 +51,7 @@ const HeaderContent = () => {
         <img
           src={lock}
           alt="header lock image"
-          className=" absolute -bottom-40 left-0 w-36 blur-sm -z-10 rotate-[25deg]"
+          className=" absolute -bottom-40 left-0 w-36 blur-sm -z-10 rotate-[25deg] max-[760px]:-bottom-10"
         />
       </div>
     </div>
