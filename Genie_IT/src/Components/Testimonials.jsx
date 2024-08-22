@@ -28,7 +28,7 @@ const Testimonials = () => {
         </div>
       </div>
       {/*  */}
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-x-5 lg:px-20 px-14 -translate-y-24 max-[590px]:px-5">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-x-5 xl:px-40 px-14 -translate-y-24 max-[590px]:px-5">
         <Box />
         <Box />
         <Box />
