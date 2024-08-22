@@ -18,14 +18,17 @@ const HeaderContent = () => {
       />
       <div className="flex-1 mb-10">
         <h1 className="text-8xl text-white max-[1345px]:text-6xl">
-          Find the best <span className="text-7xl max-[1345px]:text-5xl">with </span>
-          <span className="text-[#00aff1] text-7xl max-[1345px]:text-5xl">Genie iT.</span>
+          Find the best{" "}
+          <span className="text-7xl max-[1345px]:text-5xl">with </span>
+          <span className="text-[#00aff1] text-7xl max-[1345px]:text-5xl">
+            Genie iT.
+          </span>
         </h1>
         <p className="text-[#8790a2] my-6 max-[325px]:text-sm">
           Landing page, <br /> Youtube banner, twitch and many other !
         </p>
         <div className="flex items-center gap-x-6 max-[375px]:gap-x-3">
-          <button className="bg-[#00aff1] text-white py-3 px-16 rounded-xl max-[1090px]:px-10 max-[822px]:px-5 max-[325px]:text-sm max-[325px]:py-2 max-[325px]:px-3">
+          <button className="bg-[#00aff1] text-white py-3 px-16 rounded-xl max-[1090px]:px-10 max-[900px]:px-5 max-[325px]:text-sm max-[325px]:py-2 max-[325px]:px-3">
             Find design
           </button>
           <button className="flex items-center gap-x-2 bg-transparent border border-[#8790a2] text-white py-3 px-16 rounded-xl max-[1090px]:px-10 max-[822px]:px-5 max-[325px]:text-sm max-[325px]:py-2 max-[325px]:px-3">
@@ -43,7 +46,7 @@ const HeaderContent = () => {
         <img
           src={logoRep}
           alt="header logo representative"
-          className="w-[530px] translate-x-10 max-[1450px]:translate-x-4 max-[1345px]:-translate-x-10 max-[940px]:-translate-x-5  max-[860px]:-translate-y-5 max-[760px]:w-52 max-[760px]:-translate-y-44 max-[760px]:translate-x-0 max-[705px]:-translate-y-64 max-[705px]:translate-x-5 max-[705px]:scale-90 max-[625px]:translate-x-20 max-[570px]:scale-75 max-[510px]:absolute max-[510px]:top-0 max-[510px]:-right-5 max-[510px]:scale-50 max-[505px]:-top-6 max-[505px]:-right-14 max-[505px]:scale-[0.3] max-[500px]:-top-14 max-[418px]:hidden"
+          className="w-[530px] translate-x-10 max-[1450px]:translate-x-4 max-[1345px]:-translate-x-10 max-[940px]:-translate-x-5  max-[860px]:-translate-y-5 max-[760px]:w-52 max-[760px]:-translate-y-44 max-[760px]:translate-x-0 max-[705px]:-translate-y-64 max-[705px]:translate-x-5 max-[705px]:scale-90 max-[625px]:translate-x-20 max-[570px]:scale-75 max-[510px]:absolute max-[510px]:top-0 max-[510px]:-right-5 max-[510px]:scale-50 max-[505px]:-top-6 max-[505px]:-right-5 max-[430px]:scale-[0.3] max-[500px]:-top-14 max-[418px]:hidden"
         />
         <img
           src={lock}
