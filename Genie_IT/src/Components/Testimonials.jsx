@@ -4,25 +4,31 @@ import Box from "./Box";
 // ======================================================
 // === importing image assets
 // ======================================================
-import bonom from "../asset/8.png";
+import bonom from "../asset/man.png";
 
 const Testimonials = () => {
   return (
-    <div className="bg-gray-800 text-white rounded-[60px] m-10 md:m-20 h-auto md:h-[420px] z-0 relative p-6 md:p-10">
-      <img
-        src={bonom}
-        alt="bonom image"
-        className="absolute -left-12 -z-10 ml-10 md:ml-20 w-20 md:w-auto"
-      />
-      <div className="text-center md:text-right">
-        <h2 className="text-[40px] md:text-[80px] font-bold mr-0 md:mr-16 pt-4 md:pt-8">
-          Avis des experts
-        </h2>
-        <p className="mt-4 md:mt-8 text-gray-400 italic mb-8 md:mb-14 mx-6 md:mx-0 md:mr-[100px]">
-          We will take care of everything else
-        </p>
+    <div className="mx-5">
+      <div className="bg-[#242834] mx-auto max-w-[1300px] p-10 pt-8 pb-24 lg:rounded-[80px] rounded-3xl text-white max-[590px]:pb-28">
+        {/*  */}
+        <div className="flex justify-between items-center lg:px-16 px-1">
+          <div>
+            <h2 className="xl:text-8xl lg:text-6xl text-4xl">
+              Avis des experts
+            </h2>
+            <p className="pt-10 italic text-gray-400">
+              We will take care of everything else
+            </p>
+          </div>
+          <img
+            src={bonom}
+            alt="bonom image"
+            className="max-w-[300px] max-[700px]:max-w-[200px] max-[590px]:hidden"
+          />
+        </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-10 gap-5 mx-auto px-5 md:px-10">
+      {/*  */}
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-x-5 lg:px-20 px-14 -translate-y-24 max-[590px]:px-5">
         <Box />
         <Box />
         <Box />
