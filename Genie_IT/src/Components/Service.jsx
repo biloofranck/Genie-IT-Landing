@@ -1,19 +1,28 @@
 import React from 'react';
-import marketing-digital from './asset/marketing-digital.webp';
-import mobile_application_development_ad3f711b7d from './asset/mobile_application_development.jpg';
-import pexels-pixabay-414974 from './asset/pexels-pixabay-414974.jpg';
-import Programming_Languages from './asset/Programming_Languages.png';
-import Web-Design-Project-Post_Inspiration_ from './asset/Web-Design-Project-Post_Inspiration_.jpg';
-import web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-100232725 from './asset/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-100232725.jpg';
+
+import dig from "../asset/digital.webp"
+import dev from '../asset/mobile_application_development_ad3f711b7d.jpg';
+import graphic from '../asset/graphics.jpg';
+import Programming from '../asset/Programming_Languages.png';
+import Inspiration from '../asset/Inspiration_.jpg';
+import technologies from '../asset/technology.webp';
 import ServicesBox from './ServicesBox'
 
-
+// ***************************** Importing of Images found in the Asset *************************************//
+ const services = [
+    { platform: 'Marketing', imageUrl: dig },
+    { platform: 'Web Design', imageUrl: dev },
+    { platform: 'Graphics Design', imageUrl: graphic },
+    { platform: 'Mobile Dev', imageUrl: Programming },
+    { platform: 'Web Dev', imageUrl: Inspiration },
+    { platform: 'Backend Dev ', imageUrl: technologies },
+  ];
 
 const Service =({ platform, imageUrl }) => {
   return (
     <div className="border-t-8 border-t-blue-500 bg-gray-800 p-2 rounded-3xl ">
      
-      <img src={imageUrl} alt={`${platform} thumbnail`} className="w-full rounded-lg mb-4" />
+      <img src={imageUrl} alt={`${platform} thumbnail`} className="w-full rounded-lg mb-4 h-[200px] object-cover" />
       <div className=" flex flex-col items-start">
         <div>
           <span className="text-xs text-purple-500 mb-2">{platform}</span>
@@ -31,14 +40,9 @@ const Service =({ platform, imageUrl }) => {
 };
 
 const ServicesSection = () => {
-  const services = [
-    { platform: 'Marketing', imageUrl: marketing-digital },
-    { platform: 'Web Design', imageUrl: mobile_application_development_ad3f711b7d },
-    { platform: 'Graphics Design', imageUrl: 'https://via.placeholder.com/150' },
-    { platform: 'Mobile Dev', imageUrl: 'https://via.placeholder.com/150' },
-    { platform: 'Web Dev', imageUrl: 'https://via.placeholder.com/150' },
-    { platform: 'Backend Dev ', imageUrl: 'https://via.placeholder.com/150' },
-  ];
+ 
+
+  // ***************************** Images displayment *************************************//
 
   return (
    <div className="p-14 py-8">
