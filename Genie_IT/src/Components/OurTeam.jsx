@@ -27,7 +27,7 @@ const teamMembers = [
 
 const OurTeam = () => {
   return (
-    <section className=" text-white py-20 px-8">
+    <section className=" text-white py-20 px-8 max-w-[1300px] mx-auto">
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
         {/* Left Section: Text */}
         <div className="w-full md:w-3/4 lg:w-1/2 mb-6 md:mb-8 lg:mb-0">
