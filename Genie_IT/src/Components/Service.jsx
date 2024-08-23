@@ -50,7 +50,7 @@ const Service = ({ platform, imageUrl }) => {
 
 const ServicesSection = () => {
   // ***************************** Images displayment *************************************//
-
+// collins changed
   return (
     <div className="px-5 py-12 max-w-[1300px] mx-auto max-[410px]:px-0">
       <h2 className="text-center text-5xl font-semibold text-white mb-12">

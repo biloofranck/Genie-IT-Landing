@@ -125,7 +125,7 @@ const About1 = () => {
           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-[#00d1e9] to-[#0092f7] py-11 -z-30 max-[950px]:py-8"></div>
         </div>
       </div>
-      <div className="py-20 bg-red-600"></div>
+      <div className="py-20 bg-gray-600"></div>
     </section>
   );
 };
